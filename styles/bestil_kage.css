@@ -7,6 +7,7 @@
 .card__text {
   display: flex;
   flex-direction: column;
+  flex-basis: 100%;
 }
 
 .card__text > button:nth-child(5) {
@@ -32,7 +33,7 @@ img {
   margin-inline: auto;
   max-width: 1400px;
 }
-ul {
+.card__text > ul {
   margin-bottom: 1rem;
 }
 span {
@@ -42,4 +43,7 @@ span {
   .wrap {
     grid-template-columns: 1fr;
   }
+}
+.buy {
+  color: var(--baggrund-farve);
 }
