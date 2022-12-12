@@ -148,6 +148,10 @@ li {
   font-family: "broedtekst";
 }
 
+a:is(:link, :active, :visited).active {
+  border-bottom: 2px solid var(--link-farve);
+}
+
 .wrapper {
   width: clamp(21.875rem, 7.4636rem + 61.4887vw, 81.25rem);
   margin-inline: auto;
@@ -172,6 +176,10 @@ footer {
 
 .socials img {
   width: 30px;
+}
+
+.kontakt {
+  text-align: center;
 }
 
 .socials {
