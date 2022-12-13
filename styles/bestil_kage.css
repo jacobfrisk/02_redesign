@@ -2,15 +2,10 @@
   display: flex;
   gap: 1rem;
 }
-
 .card__text {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
-}
-.rows {
-  display: flex;
-  flex-direction: row;
 }
 
 .card__text > button:last-child {
