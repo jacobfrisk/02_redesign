@@ -51,11 +51,6 @@ option,
   display: inline-block;
 }
 
-/* .knap {
-  padding: 2rem;
-  text-align: center;
-} */
-
 @media (min-width: 600px) {
   .container {
     margin-top: 3rem;
