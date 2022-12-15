@@ -29,7 +29,6 @@ img {
   gap: 4rem;
   width: 80%;
   margin-inline: auto;
-  max-width: 1400px;
 }
 .card__text > ul {
   margin-bottom: 1rem;

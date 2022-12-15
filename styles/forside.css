@@ -1,7 +1,6 @@
 .wrapper {
   display: grid;
   place-items: center;
-  width: 90%;
 }
 
 .h1,
@@ -85,6 +84,9 @@
   .kaffe_billede {
     grid-row: 3;
     width: 200px;
+  }
+  .wrapper {
+    width: 60%;
   }
   .wrapper > * {
     display: grid;
